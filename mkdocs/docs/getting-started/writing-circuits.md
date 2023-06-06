@@ -7,7 +7,7 @@ description: >-
 
 # Writing circuits 
 
-`circom` allows programmers to define the [constraints](../../circom-language/constraint-generation) that define the arithmetic circuit. All constraints must be of the form A\*B + C = 0, where A, B and C are linear combinations of signals. More details about these equations can be found [here](../../circom-language/constraint-generation). 
+`circom` allows programmers to define the [constraints](../../circom-language/constraint-generation) that define the arithmetic circuit. All constraints must be of the form wA\*wB - wC = 0, where w, A, B and C are vectors. More details about these equations can be found [here](../../circom-language/constraint-generation). 
 
 The arithmetic circuits built using `circom` operate on signals. Let us define our first circuit that simply multiplies two input signals and produces an output signal.
 
